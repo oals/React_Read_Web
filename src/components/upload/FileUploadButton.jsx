@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-function FileUploadButton({uploadCallBack}) {
+function FileUploadButton({ uploadCallBack }) {
   const fileInputRef = useRef(null);
 
   const handleButtonClick = () => {
